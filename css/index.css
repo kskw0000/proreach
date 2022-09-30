@@ -657,7 +657,7 @@
     border-top: 1.5rem solid #828f96;
     top: unset;
     bottom: -4rem;
-    right: calc(50% - .75rem);
+    right: calc(50% - 3rem);
     margin-left: -.75rem;
   }
   .step > span {
