@@ -1,0 +1,697 @@
+#top {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: -100px;
+}
+
+.slides {
+  position: relative;
+  height: 80%;
+  background: url(../img/top-women.jpg);
+  background-size: cover;
+}
+
+.slides > h1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#top > p {
+  color: #064f94;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#news {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.news-title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.news-title > h2 {
+  color: #a7d28f;
+  margin-right: auto;
+}
+
+.news-title > a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.news-list {
+  position: relative;
+  margin: .5rem 0;
+}
+
+.news-list > li {
+  border-top: 1px solid #e8ebe7;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.news-list > li:last-child {
+  border-bottom: 1px solid #e8ebe7;
+}
+
+#summary {
+  position: relative;
+  width: 60%;
+  margin: 5rem auto;
+}
+
+#summary > img {
+  position: relative;
+  width: 50%;
+  margin-bottom: -3rem;
+  z-index: 10;
+}
+
+.summary-header {
+  position: relative;
+  background: #40a4ce;
+  padding: 4rem 3rem 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.summary-header > h2 {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.summary-content {
+  position: relative;
+  background: #eaf6fd;
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.summary-data {
+  position: relative;
+  width: 30%;
+}
+
+.summary-data:nth-of-type(3) {
+  margin-bottom: 1.5rem;
+}
+
+.summary-data > h3 {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  border-bottom: 1px solid #485e6a;
+}
+
+.summary-data > .num {
+  font-family: "Hind";
+  font-weight: bold;
+  color: #485e6a;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+#summary > .note {
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: right;
+  color: #485e6a;
+  line-height: 2;
+  font-size: .9rem;
+}
+
+#service {
+  position: relative;
+  width: 100%:
+}
+
+.service-header {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  background: url(../img/service.jpg);
+  background-size: cover;
+}
+
+.service-header > h2 {
+  color: #485e6a;
+}
+
+#service > p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #485e6a;
+  margin: 3rem 0;
+}
+
+.service-content {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.service-left,
+.service-right {
+  position: relative;
+  width: 50%;
+  text-align: left;
+}
+
+.service-left > h3 {
+  position: relative;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.5rem;
+  background: #f2f91c;
+  margin-bottom: 1rem;
+}
+.service-left > p {
+  color: #485e6a;
+  margin-bottom: 2rem;
+}
+
+.service-right > img {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  z-index: 10;
+}
+
+.service-right > video {
+  position: absolute;
+  width: 58%;
+  margin-left: -59%;
+  top: 0.5vw;
+  border-radius: 2vw;
+}
+
+.service-box {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #f4f8ea;
+}
+
+.service-box > img {
+  width: 18%;
+  margin: 0 16%;
+}
+
+.service-box > .text {
+  position: relative;
+  width: 50%;
+  text-align: left;
+}
+
+.service-box > .text > h3 {
+  position: relative;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.service-box > .text > h3 > span {
+  background: #828f96;
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1;
+  padding: 0.95rem 1rem;
+}
+
+.service-box > .text > h3 > p {
+  display: block;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: .6rem;
+  background: #fff;
+  color: #485e6a;
+}
+
+.service-box > .text > p {
+  color: #485e6a;
+  margin-bottom: 1.5rem;
+}
+
+.service-box > .text > .data-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.service-box > .text > .data-box > .data {
+  width: 40%;
+  text-align: center;
+}
+
+.service-box > .text > .data-box > .data > h4 {
+  color: #485e6a;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #485e6a;
+}
+
+.service-box > .text > .data-box > .data > span {
+  font-family: "Hind";
+  color: #485e6a;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+#process {
+  position: relative;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.process-header {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url(../img/process.jpg);
+  background-size: cover;
+}
+
+#process > h2 {
+  color: #a7d28f;
+  margin: 5rem 0 3rem;
+}
+
+#process > p {
+  font-size: 2rem;
+  color: #485e6a;
+  font-weight: bold;
+}
+
+.steps {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.step {
+  position: relative;
+  width: 20%;
+}
+
+.step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -2.75rem;
+  transform: translateY(-50%);
+  border: .75rem solid transparent;
+  border-left: 1.5rem solid #828f96;
+}
+
+.step > span {
+  display: block;
+  width: 100%;
+  background: #485e6a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.step > p {
+  background: #f2f2f2;
+  font-size: 1.4rem;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #485e6a;
+  font-weight: bold;
+}
+
+.notes {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.notes > p {
+  color: #485e6a;
+}
+
+.divider {
+  position: relative;
+  margin: 5rem auto;
+  width: 90%;
+  height: 3px;
+}
+
+.divider::before {
+  content: "";
+  background-image: linear-gradient(to right, #e8ebe7, #e8ebe7 3px, transparent 3px, transparent 8px);
+  background-size: 8px 3px;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.interview {
+  position: relative;
+  width: 100%;
+  margin: 3rem 0 6rem;
+}
+
+.interview-header {
+  position: relative;
+  width: 60%;
+  margin: 3rem auto;
+  display: flex;
+}
+
+.interview-header > .text {
+  position: relative;
+  width: 50%;
+  aspect-ratio: 3 / 2;
+  background: #eaf6fd;
+  text-align: left;
+}
+
+.interview-header > .text > h3 {
+  font-size: 2.5rem;
+  line-height: 1;
+  width: 100%;
+  top: 50%;
+  margin-top: -.75rem;
+}
+
+.interview-header > .text > p {
+  position: absolute;
+  bottom: 0;
+  color: #485e6a;
+  font-size: .9rem;
+}
+
+.interview-header > img {
+  width: 50%;
+}
+
+.interview-content {
+  position: relative;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.readmore-content {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.readmore-content > span {
+  line-height: 2;
+  font-weight: bold;
+  color: #485e6a;
+}
+
+.readmore-content > p {
+  margin-bottom: 1rem;
+  color: #485e6a;
+}
+
+.readmore-content::before {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 50px;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%, #fff 100%);
+  background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%, #fff 100%);
+}
+
+.readmore-label {
+  position: relative;
+  display: table;
+  bottom: -3rem;
+  margin: 0 auto;
+  z-index: 2;
+  padding: 0 10px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  color: #485e6a;
+  border: 1px solid #485e6a;
+}
+
+.readmore-label:before {
+  content: '+ READMORE';
+}
+
+.readmore-check {
+  display: none;
+}
+
+.readmore-check:checked~.readmore-label {
+  position: static;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+
+.readmore-check:checked~.readmore-label:before {
+  content: '閉じる';
+}
+
+.readmore-check:checked~.readmore-content {
+  height: auto;
+}
+
+.readmore-check:checked~.readmore-content::before {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  #top {
+    height: auto;
+    margin-bottom: 3rem;
+    margin-top: -60px;
+  }
+  .slides {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  .slides > h1 {
+    font-size: 2rem;
+  }
+  #top > p {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+  }
+  #news {
+    width: 90%;
+  }
+  .news-title > h2 {
+    font-size: 2rem;
+  }
+  .news-title > a {
+    font-size: 1rem;
+  }
+  .news-list > li > a {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: .9rem;
+  }
+  .news-list > li > a > span {
+    font-size: .8rem;
+    color: #818d94;
+  }
+  #summary {
+    width: 90%;
+  }
+  #summary > img {
+    width: 80%;
+  }
+  .summary-header {
+    padding: 4rem 1rem 2rem;
+  }
+  .summary-header > h2 {
+    font-size: 1rem;
+  }
+  .summary-data {
+    width: 45%;
+  }
+  .summary-data > h3 {
+    font-size: .9rem;
+  }
+  .summary-data:nth-of-type(1),
+  .summary-data:nth-of-type(3) {
+    margin-bottom: 1rem;
+  }
+  .summary-data:nth-of-type(3) > h3 {
+    line-height: 3;
+  }
+  #service > h2 {
+    position: relative;
+    color: #a7d28f;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  #service > p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .service-content {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .service-left,
+  .service-right {
+    width: 100%;
+  }
+  .service-right > video {
+    top: 1.5vw;
+    border-radius: 6vw;
+  }
+  .service-right {
+    margin-bottom: 2rem;
+  }
+  .service-left > h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .service-box {
+    width: 90%;
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+  }
+  .service-box:last-child {
+    flex-direction: column-reverse;
+  }
+  .service-box > img,
+  .service-box > .text {
+    width: 100%;
+  }
+  .service-box > .text {
+    margin-top: 2rem;
+  }
+  .service-box > .text > h3 > p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .service-box > .text > .data-box {
+    justify-content: space-between;
+  }
+  .service-box > .text > .data-box > .data {
+    width: 48%;
+  }
+  .service-box > .text > .data-box > .data > h4 {
+    font-size: .8rem;
+  }
+  .process-header {
+    height: 40vh;
+    background-position: center;
+  }
+  #process > h2 {
+    font-size: 3rem;
+    margin: 3rem 0 1rem;
+  }
+  #process > p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .steps {
+    width: 80%;
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  .step {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    display: flex;
+  }
+  .step:not(:last-child)::after {
+    width: 0;
+    height: 0;
+    border-left: .75rem solid transparent;
+    border-right: .75rem solid transparent;
+    border-top: 1.5rem solid #828f96;
+    top: unset;
+    bottom: -4rem;
+    right: calc(50% - .75rem);
+    margin-left: -.75rem;
+  }
+  .step > span {
+    display: inline;
+    width: auto;
+    padding: .5rem .8rem;
+  }
+  .step > p {
+    height: auto;
+    flex-grow: 1;
+    font-size: 1.2rem;
+  }
+  .notes {
+    width: 90%;
+  }
+  .notes > p {
+    font-size: .9rem;
+  }
+  .interview-header {
+    margin-bottom: 2rem;
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .interview-header > .text {
+    width: 100%;
+    text-align: center;
+  }
+  .interview-header > img {
+    width: 100%;
+  }
+  .interview-header > .text > h3 {
+    font-size: 2rem;
+    margin-top: 27%;
+  }
+  .interview-header > .text > p {
+    font-size: .75rem;
+    width: 100%;
+  }
+  .interview-content {
+    width: 90%;
+  }
+}

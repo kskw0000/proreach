@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProReach</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../js/header.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="pc">
+        <ul>
+          <li>
+            <a href="/">
+              <img src="../img/comoany-logo.png" alt="ProReach">
+            </a>
+          </li>
+          <li>
+            <a href="/">TOP</a>
+          </li>
+          <li>
+            <a href="/about">ABOUT</a>
+          </li>
+          <li>
+            <a href="/news">NEWS</a>
+          </li>
+          <li>
+            <a class="btn" href="/">福祉法人・事業所の方へ</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="sp">
+        <ul>
+          <li>
+            <a href="/">
+              <img src="../img/comoany-logo.png" alt="ProReach">
+            </a>
+          </li>
+          <li>
+            <div id="toggle-btn" class="sp sp-nav" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div id="sp-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="/">TOP</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT</a>
+            </li>
+            <li>
+              <a href="/news">NEWS</a>
+            </li>
+            <li>
+              <a class="btn-b" href="#">RECRUIT (Wantedly)</a>
+            </li>
+            <li>
+              <a class="btn-b" href="#">ACCESS (Google Map)</a>
+            </li>
+            <li>
+              <a class="btn-b" href="/">福祉法人・事業所の方へ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="about-header">
+      <h1>ABOUT</h1>
+    </section>
+    <section id="message">
+      <h2>MESSAGE</h2>
+      <div class="message-content">
+        <div class="text">
+          <h3>情報伝達のアップデートを通じて<br>精度・満足度の高い意思決定を</h3>
+          <div class="prof sp">
+            <img src="../img/koshikawa.jpg" alt="越川 峻行">
+            <p>越川 峻行<br><span>(代表取締役)</span></p>
+          </div>
+          <p>私たちは精度も満足度も高い意思決定をするために情報収集の手段・手法は絶え間なく、変化を続けています。
+          最近では、Googleを始めとした検索エンジンの結果だけでは、「適切な意思決定をするための情報量が不足している」と感じる若い生活者は少なくありません。<br> そこで、私たちは、文字とは比較にならない情報量を有し、かつ、閲覧負荷が少ない「動画」を活用することで、情報伝達スピードをあらたな次元にアップデートします。 動画メディアを起点に見た人の心を動かし、意思決定を促す。そして、さまざまな業種・業界にて、まだここにない出会いを創造します。</p>
+        </div>
+        <div class="prof pc">
+          <img src="../img/koshikawa.jpg" alt="越川 峻行">
+          <p>越川 峻行<br><span>(代表取締役)</span></p>
+        </div>
+      </div>
+    </section>
+    <section id="company">
+      <h2>COMPANY INFO</h2>
+      <div class="company-info">
+        <div class="left-box">
+          <ul>
+            <li>会社名</li>
+            <li>株式会社プロリーチ</li>
+          </ul>
+          <ul>
+            <li>設 立</li>
+            <li>2020年6月</li>
+          </ul>
+          <ul>
+            <li>代表者</li>
+            <li>越川峻行</li>
+          </ul>
+          <ul>
+            <li>従業員数</li>
+            <li>30名(業務委託含む)</li>
+          </ul>
+          <ul>
+            <li>事業内容</li>
+            <li>コンテンツメディア業<br>
+              HRブランド業<br>
+              SNSマーケティング支援業
+            </li>
+          </ul>
+        </div>
+        <div class="right-box">
+          <ul>
+            <li>資本金</li>
+            <li>¥35,010,000<br class="sp">(資本準備金を含む)</li>
+          </ul>
+          <ul>
+            <li>許 可</li>
+            <li>厚生労働大臣許可番号<br>有料職業紹介事業<br>(13-ユ-080554)</li>
+          </ul>
+          <ul>
+            <li>取引銀行</li>
+            <li>みずほ銀行</li>
+          </ul>
+          <ul>
+            <li>顧問弁護士</li>
+            <li>宮益坂法律事務所</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="recruit">
+      <div class="recruit-content">
+        <img src="../img/footer-about.jpg">
+        <h2>RECRUIT</h2>
+        <h3>今ここにない未来を創りにいこう</h3>
+        <p>好奇心やものづくりの楽しさに突き動かされ、新しい価値を発見し具現化する。<br>ProReachには、そんな情熱を持ったメンバーが多く集まっています。</p>
+        <a class="btn-l" href="">Wantedly</a>
+      </div>
+    </section>
+    <section id="access">
+      <h2>ACCESS</h2>
+      <div class="access-content">
+        <div class="text">
+          <p>〒150-0043<br>東京都渋谷区道玄坂1-20-3 COERU SHIBUYA 4階</p>
+          <p>■ 神泉駅より徒歩4分<br>京王井の頭線</p>
+          <p>■ 渋谷駅より徒歩6分<br>東急東横線、 東京メトロ半蔵門線 東急田園都市線、 JR(山手線/湘南新宿ライン/埼京線)、東京メトロ (副都心線/東京メトロ銀座線)</p>
+        </div>
+        <img src="../img/access.jpg" alt="access">
+      </div>
+      <a class="btn-l" href="#">Google Map</a>
+    </section>
+    <footer>
+      <div class="footer-banner-box">
+        <div class="footer-banners">
+          <div class="footer-banner">
+            <img src="../img/footer-about.jpg" alt="about">
+            <span>ABOUT</span>
+            <p>私たちは「20-30代向けコンテンツ制作」の<br>プロフェッショナルです</p>
+            <a class="btn-l" href="/about">会社情報 →</a>
+          </div>
+          <div class="footer-banner">
+            <img src="../img/footer-contact.jpg" alt="contact">
+            <span>CONTACT</span>
+            <p>福祉法人・事業所の方へ<br>プロリーチにお気軽にご連絡ください</p>
+            <a class="btn-l" href="#">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content">
+        <nav>
+          <ul>
+            <li>
+              <a href="/news">NEWS</a>
+            </li>
+            <li>
+              <a href="/#service">SERVICE</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT</a>
+            </li>
+            <li>
+              <a href="#">RECRUIT(Wantedly)</a>
+            </li>
+          </ul>
+        </nav>
+        <p>
+          株式会社プロリーチ<br>
+          〒150-0043 東京都渋谷区道玄坂1-20-3 COERU SHIBUYA 4階<br>
+          ©ProReach,Inc. ALL RIGHTS RESERVED
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

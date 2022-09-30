@@ -1,0 +1,25 @@
+.btn {
+  background: #485e6a;
+  color: #fff;
+  font-size: 1rem;
+  padding: .1rem 1rem;
+  border-radius: 1.2rem;
+}
+
+.btn-l {
+  background: #485e6a;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: .2rem 1rem;
+  border-radius: 1.6rem;
+}
+
+.btn-b {
+  background: #40a4ce;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .1rem 1rem;
+  border-radius: 1.2rem;
+}

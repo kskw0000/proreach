@@ -1,0 +1,123 @@
+#news-header {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url(../img/news-top.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#news-header > h1 {
+  font-size: 4rem;
+  margin-left: 5%;
+  color: #485e6a;
+}
+
+#news {
+  position: relative;
+  width: 100%;
+}
+
+.news-box {
+  position: relative;
+  width: 1080px;
+  margin: 4rem auto;
+  padding-bottom: 4rem;
+}
+
+.news-box:not(:last-child) {
+  border-bottom: 2px solid #e8ebe7;
+}
+
+.news-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.news-box:nth-of-type(odd) > .news-header {
+  background: #eaf6fd;
+}
+
+.news-box:nth-of-type(2n) > .news-header {
+  background: #f4f8ea;
+  flex-direction: row-reverse;
+}
+
+.news-header > .text {
+  position: relative;
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+}
+
+.news-box:nth-of-type(2n) > .news-header > .text {
+  text-align: right;
+}
+
+.news-header > .text > h2 {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #485e6a;
+}
+
+.news-header > .text > span {
+  position: absolute;
+  bottom: 0;
+  color: #485e6a;
+  line-height: 2;
+}
+
+.news-box:nth-of-type(2n) > .news-header > .text > span {
+  right: 0;
+}
+
+.news-header > img {
+  width: 50%;
+}
+
+.news-content {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+  #news-header {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  #news-header > h1 {
+    font-size: 2rem;
+  }
+  .news-box {
+    width: 90%;
+  }
+  .news-header {
+    flex-direction: column-reverse;
+  }
+  .news-box:nth-of-type(2n) > .news-header {
+    flex-direction: column-reverse;
+  }
+  .news-box:nth-of-type(2n) > .news-header > .text {
+    text-align: left;
+  }
+  .news-box:nth-of-type(2n) > .news-header > .text > span {
+    left: 0;
+  }
+  .news-header > .text {
+    width: 100%;
+  }
+  .news-header > .text > h2 {
+    font-size: 1.3rem;
+    margin: 3.5rem 0;
+  }
+  .news-header > img {
+    width: 100%;
+  }
+}

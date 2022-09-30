@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'HighwayGothic';
+  src: url(../fonts/HWYGNRRW.TTF);
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url(../fonts/Hind-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url(../fonts/Hind-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden
+}
+
+html,
+body {
+  position: relative;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+h1{
+  position: relative;
+  color: #064f94;
+  font-family: HighwayGothic, sans-serif;
+  font-size: 8rem;
+  line-height: 1;
+}
+
+h2{
+  position: relative;
+  color: #fff;
+  font-family: HighwayGothic, sans-serif;
+  font-size: 4rem;
+  line-height: .8;
+}
+
+h3{
+  position: relative;
+  color: #485e6a;
+  font-family: HighwayGothic, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ol{
+  list-style-position: inside;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #485e6a;
+  letter-spacing: 1px;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media screen and (max-width: 1080px) {
+  p {
+    letter-spacing: 0.5px;
+  }
+  a {
+    letter-spacing: 0.5px;
+  }
+}
