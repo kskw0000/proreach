@@ -576,6 +576,10 @@
     font-size: 1rem;
     margin-top: 1rem;
   }
+  .service-header {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
   .service-content {
     width: 90%;
     flex-direction: column-reverse;
@@ -680,13 +684,14 @@
   .interview-header > .text {
     width: 100%;
     text-align: center;
+    aspect-ratio: unset;
   }
   .interview-header > img {
     width: 100%;
   }
   .interview-header > .text > h3 {
     font-size: 2rem;
-    margin-top: 27%;
+    margin: 4rem auto;
   }
   .interview-header > .text > p {
     font-size: .75rem;
