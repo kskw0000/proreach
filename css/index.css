@@ -150,6 +150,7 @@
   align-items: center;
   background: url(../img/service.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .service-header > h2 {
